@@ -1,0 +1,21 @@
+{
+  
+"name": "Wood-Walls",
+  
+"version": "1.0.1",
+  
+"factorio_version": "0.17",
+  
+"title": "Wood-Walls",
+  
+"author": "zanven",
+  
+"contact": "zanven42@gmail.com",
+  
+"homepage": "https://github.com/zanven42/FactorioMod-Wood-Walls",
+  
+"description": "Adds Wooden Walls and floors to the game.",
+  
+"dependencies": ["base >= 0.17.0"]
+
+}
