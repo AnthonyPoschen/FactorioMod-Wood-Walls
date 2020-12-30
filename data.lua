@@ -6,7 +6,7 @@ data:extend{ {
   type = "tile",
   name = "wood-floor",
   needs_correction = false,
-  minable = {hardness = 0.2, mining_time = 0.5, result = "wood"},
+  minable = {hardness = 0.2, mining_time = 0.1, result = "wood"},
   mined_sound = { filename = "__base__/sound/deconstruct-bricks.ogg" },
   collision_mask = {"ground-tile"},
   pollution_absorption_per_second = 0,

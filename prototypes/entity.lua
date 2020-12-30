@@ -7,7 +7,7 @@ data:extend({
     flags = {"placeable-neutral", "player-creation"},
     collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
-    minable = {mining_time = 0.5, result = "wooden-wall"},
+    minable = {mining_time = 0.1, result = "wooden-wall"},
     fast_replaceable_group = "wall",
     max_health = 150,
     repair_speed_modifier = 2.5,
