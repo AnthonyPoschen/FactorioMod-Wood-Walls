@@ -10,4 +10,7 @@ copy:
 	cp $(FILENAME).zip "$(APPDATA)/Factorio/mods/$(FILENAME).zip"
 	rm -rf $(FILENAME).zip
 
+copy-mac:
+	cp $(FILENAME).zip ~/Library/Application\ Support/factorio/mods/$(FILENAME).zip
+
 run: build copy
