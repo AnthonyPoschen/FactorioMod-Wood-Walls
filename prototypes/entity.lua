@@ -309,7 +309,7 @@ data:extend({
   {
       type = "corpse",
       name = "woodenwall-remnants",
-      icon = "__base__/graphics/icons/wall-remnants.png",
+      icon = "__Wood-Walls__/graphics/wooden-wall/wooden-wall.png",
       icon_size = 32,
       flags = {"placeable-neutral", "not-on-map"},
       subgroup="remnants",
