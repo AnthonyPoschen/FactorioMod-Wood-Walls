@@ -29,3 +29,8 @@ Date: 14.11.2024
   Changes:
     - Difficult recipes removed as per 2.0 Changes
     - recipe changes, 2 wood now gives 2 walls per craft
+---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+Date: 12.02.2025
+  Bugfixes:
+		- bootup issues created from 2.0.33 are now resolved due to a PR from Simon Brodtmann Thank you <3
