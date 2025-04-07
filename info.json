@@ -1,12 +1,11 @@
 {
   "name": "Wood-Walls",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "factorio_version": "2.0",
   "title": "Wood-Walls",
   "author": "zanven",
   "contact": "",
-  "homepage": "https://github.com/zanven42/FactorioMod-Wood-Walls",
+  "homepage": "https://github.com/AnthonyPoschen/factoriomod-wood-walls.git",
   "description": "Adds Wooden Walls and floor tile to the game for early base defence.",
   "dependencies": ["base >= 2.0.33"]
 }
-

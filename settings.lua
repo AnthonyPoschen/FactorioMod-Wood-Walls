@@ -1,0 +1,36 @@
+data:extend({
+	{
+		type = "int-setting",
+		name = "wood-walls-fuelvalue",
+		setting_type = "startup",
+		default_value = 1,
+		minimum_value = 0,
+		maximum_value = 100,
+		order = "aa",
+	},
+	{
+		type = "int-setting",
+		name = "wood-walls-wall-cost",
+		setting_type = "startup",
+		default_value = 2,
+		minimum_value = 1,
+		maximum_value = 100,
+		order = "ab",
+	},
+	{
+		type = "int-setting",
+		name = "wood-walls-wall-output",
+		setting_type = "startup",
+		default_value = 2,
+		minimum_value = 1,
+		maximum_value = 100,
+		order = "ac",
+	},
+	{
+		type = "bool-setting",
+		name = "wood-walls-disable-wall",
+		setting_type = "startup",
+		default_value = false,
+		order = "ad",
+	},
+})

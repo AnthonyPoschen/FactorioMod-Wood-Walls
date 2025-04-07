@@ -1,7 +1,9 @@
+local fuelValue = settings.startup["wood-walls-fuelvalue"].value
+
 data:extend({
 	{
 		type = "item",
-		fuel_value = "4MJ",
+		fuel_value = fuelValue .. "MJ",
 
 		fuel_category = "chemical",
 		name = "wooden-wall",
