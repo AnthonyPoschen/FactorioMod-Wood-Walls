@@ -1,3 +1,5 @@
+local wallHp = settings.startup["wood-walls-hp"].value
+
 data:extend({
 	{
 		type = "wall",
@@ -9,7 +11,7 @@ data:extend({
 		selection_box = { { -0.5, -0.5 }, { 0.5, 0.5 } },
 		minable = { mining_time = 0.1, result = "wooden-wall" },
 		fast_replaceable_group = "wall",
-		max_health = 150,
+		max_health = wallHp,
 		repair_speed_modifier = 2.5,
 		corpse = "woodenwall-remnants",
 		repair_sound = { filename = "__core__/sound/mining-wood-1.ogg" },
@@ -321,4 +323,3 @@ data:extend({
 		},
 	},
 })
-

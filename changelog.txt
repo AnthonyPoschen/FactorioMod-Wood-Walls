@@ -33,14 +33,18 @@ Date: 14.11.2024
 Version: 1.2.1
 Date: 12.02.2025
   Bugfixes:
-		- bootup issues created from 2.0.33 are now resolved due to a PR from Simon Brodtmann Thank you <3
+    - bootup issues created from 2.0.33 are now resolved due to a PR from Simon Brodtmann Thank you <3
 ---------------------------------------------------------------------------------------------------
 Version: 1.3.0
 Date: 08.04.2025
   Features:
-		- Added Mod setting: Fuel value - set the MJ walls burn at
-		- Added Mod setting: Wall cost - how many wood per craft
-		- Added Mod setting: Wall output - how many walls recieved per craft
-		- Added Mod setting: Disable walls - disable wall recipe ( not walls in save ) if you only want the floors
-	Changes:
-		- Wall MJ value changed to 1MJ from 2MJ as you recieve 2 walls per craft now
+    - Added Mod setting: Fuel value - set the MJ walls burn at
+    - Added Mod setting: Wall cost - how many wood per craft
+    - Added Mod setting: Wall output - how many walls recieved per craft
+    - Added Mod setting: Disable walls - disable wall recipe ( not walls in save ) if you only want the floors
+  Changes:
+    - Wall MJ value changed to 1MJ from 2MJ as you recieve 2 walls per craft now
+Version: 1.3.1
+Date: 08.04.2025
+  Features:
+    - Added Mod setting: Wall hp - set the wall hitpoints

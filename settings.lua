@@ -27,10 +27,19 @@ data:extend({
 		order = "ac",
 	},
 	{
+		type = "int-setting",
+		name = "wood-walls-hp",
+		setting_type = "startup",
+		default_value = 150,
+		minimum_value = 10,
+		maximum_value = 1000,
+		order = "ad",
+	},
+	{
 		type = "bool-setting",
 		name = "wood-walls-disable-wall",
 		setting_type = "startup",
 		default_value = false,
-		order = "ad",
+		order = "ae",
 	},
 })
