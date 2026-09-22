@@ -5,7 +5,7 @@ data:extend({
 		type = "item",
 		fuel_value = fuelValue .. "MJ",
 
-		fuel_category = "chemical",
+		fuel_categories = { "chemical" },
 		name = "wooden-wall",
 		icon = "__Wood-Walls__/graphics/wooden-wall/wooden-wall.png",
 		icon_size = 32,
